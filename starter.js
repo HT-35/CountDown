@@ -1,7 +1,7 @@
 window.addEventListener("load", function() {
 
 
-    let time = prompt("Nhập vào này cầm đếm ngược (vidu):  May 03 2023");
+//     let time = prompt("Nhập vào này cầm đếm ngược (vidu):  May 03 2023");
 
     const days_Text = this.document.querySelector(".days");
     const hours_Text = this.document.querySelector(".hours");
@@ -55,8 +55,8 @@ window.addEventListener("load", function() {
             }
         }
     }
-    // countdown("May 03 2023");
-    countdown(time);
+    countdown("May 03 2023");
+//     countdown(time);
 
 
 
